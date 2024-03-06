@@ -26,7 +26,7 @@ with open('README.md', 'r') as readme:
 
 setup(
     name='Immune_Score_Project',
-    version='0.0.2',
+    version='0.0.1',
     author='Tan Zhenlin',
     license='MIT',
     author_email='d202381031@hust.edu.cn',
