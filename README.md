@@ -4,10 +4,10 @@
 
 ## Package: `Immune_Score_Caculator`
 
-We created the python package called `TOSICA` that uses `scanpy` ans `torch` to explainablely annotate cell type on single-cell RNA-seq data.
+We created the python package called `Immune_Score_Caculator` that uses `scanpy` ans `torch` to explainablely annotate cell type on single-cell RNA-seq data.
 
 # Requirements
-- Python 3.9
+- Python 3.10
 - scikit-learn
 - numpy
 - pandas
@@ -18,23 +18,22 @@ Datasets for transfer learning is download from [PredRet](http://predret.org/)
 
 # Usage
 
-## Validation and Test
+## Test
 
-Run test.py by `python ./test.py `
+Run test.py by `python ./main.py `
 
 ## Transfer Learn to Your Own Dataset
 
-- Prepare your dataset as a csv file which has "InChI" and "RT" columns.
-- Rename it as "data.csv" at the root directory.
-- download the pre-trained model from [huggingface](https://huggingface.co/spaces/Xue-Jun/RT-Transformer/tree/main).
-- Run transfer.py
+- Prepare your dataset as a csv file which is ssGSEA data or RNA-seq data.
 
-You can also follow this [jupyter notebook](./) to fine-tuning the model.
-
-## Retrain the Model
-- Prepare your dataset as a csv file which has "InChI" and "RT" columns.
-- Rename it as "data.csv" at the root directory.
-- Run train.py
+## Start Compution
+- Import this package.
+  `from immune_score.score_caculator import Immune_Score_Caculator`
+- Read your `csv` file as a `pandas.DataFrame`.
+  `data = pd.read_csv('Data/data/ssgsea_TB_c7.csv.bz2', index_col=0)`.
+- Compute immune scores.
+  `isc = Immune_Score_Caculator()`
+  `immune_scores = isc.score_compute(data=data, use_all_to_nor=True)`
 
 ## Pretrained Model Files
 
@@ -45,8 +44,8 @@ best_state_dict.pth The Best model of RT-Transformer train from full data.
 
 If you make use of the code/experiment in your work, please cite our paper (Bibtex below).
 
-@article{xue2023rt,
-title={RT-Tranformer: Retention Time Prediction for Metabolite Annotation to Assist in Metabolite Identification},
-author={Jun Xue and Bingyi Wang and Hongchao Ji and Weihua Li },
-year={2023}
+@article{
+title={''},
+author={''},
+year={2024}
 }
