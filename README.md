@@ -2,7 +2,7 @@
 
 ![Workflow](./process.png)
 
-## Package: `TOSICA`
+## Package: `Immune_Score_Caculator`
 
 We created the python package called `TOSICA` that uses `scanpy` ans `torch` to explainablely annotate cell type on single-cell RNA-seq data.
 
