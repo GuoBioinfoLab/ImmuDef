@@ -38,7 +38,7 @@ setup(
     python_requires='>=3.6',
     packages=setuptools.find_packages(),
     package_data={'your_package_name': ['**']},
-    include_package_data=True,  # 启用清单文件MANIFEST.in,包含数据文件
+    include_package_data=True,
     install_requires=[
         'pandas>0.20.0',
         'numpy>1.0.0',
