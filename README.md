@@ -8,19 +8,11 @@ We created the python package called `TOSICA` that uses `scanpy` ans `torch` to 
 
 # Requirements
 - Python 3.9
-- torch
-- rdkit-pypi
-- torch-scatter
-- torch-sparse 
-- torch-cluster 
-- torch_geometric
 - scikit-learn
-- tqdm
+- numpy
 - jupyter
 - notebook
 - pandas
-- networkx
-- gradio
 
 # Datasets
 The SMRT dataset is collect from [this paper](https://doi.org/10.1038/s41467-019-13680-7)
