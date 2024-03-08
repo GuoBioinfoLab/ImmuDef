@@ -6,18 +6,57 @@
 
 We created the python package called `TOSICA` that uses `scanpy` ans `torch` to explainablely annotate cell type on single-cell RNA-seq data.
 
-### Requirements
+# Requirements
+- Python 3.9
+- torch
+- rdkit-pypi
+- torch-scatter
+- torch-sparse 
+- torch-cluster 
+- torch_geometric
+- scikit-learn
+- tqdm
+- jupyter
+- notebook
+- pandas
+- networkx
+- gradio
 
-+ Linux/UNIX/Windows system
-+ Python >= 3.8
-+ torch == 1.7.1
+# Datasets
+The SMRT dataset is collect from [this paper](https://doi.org/10.1038/s41467-019-13680-7)
+Datasets for transfer learning is download from [PredRet](http://predret.org/)
 
-### Create environment
+# Usage
 
-```
-conda create -n TOSICA python=3.8 scanpy
-conda activate TOSICA
-conda install pytorch=1.7.1 torchvision=0.8.2 torchaudio=0.7.2 cudatoolkit=10.1 -c pytorch
-```
+## Validation and Test
 
-### Installation
+Run test.py by `python ./test.py `
+
+## Transfer Learn to Your Own Dataset
+
+- Prepare your dataset as a csv file which has "InChI" and "RT" columns.
+- Rename it as "data.csv" at the root directory.
+- download the pre-trained model from [huggingface](https://huggingface.co/spaces/Xue-Jun/RT-Transformer/tree/main).
+- Run transfer.py
+
+You can also follow this [jupyter notebook](./) to fine-tuning the model.
+
+## Retrain the Model
+- Prepare your dataset as a csv file which has "InChI" and "RT" columns.
+- Rename it as "data.csv" at the root directory.
+- Run train.py
+
+## Pretrained Model Files
+
+best_state_download_dict.pth The Best model of RT-Transformer train from retained data.
+best_state_dict.pth The Best model of RT-Transformer train from full data.
+
+# Cite
+
+If you make use of the code/experiment in your work, please cite our paper (Bibtex below).
+
+@article{xue2023rt,
+title={RT-Tranformer: Retention Time Prediction for Metabolite Annotation to Assist in Metabolite Identification},
+author={Jun Xue and Bingyi Wang and Hongchao Ji and Weihua Li },
+year={2023}
+}
