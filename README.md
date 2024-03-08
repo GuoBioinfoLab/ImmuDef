@@ -1,6 +1,6 @@
 # Immune_Score_Caculator
 
-![Workflow](./figure.png)
+![Workflow](./process.png)
 
 ## Package: `TOSICA`
 
