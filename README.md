@@ -29,7 +29,7 @@ Run test.py by `python ./main.py `
 ## Start Compution
 - Import this package.
   `from immune_score.score_caculator import Immune_Score_Caculator`
-- Read your `csv` file as a `pandas.DataFrame`.
+- Read your `csv` file as a `pandas.DataFrame`.\n
   `data = pd.read_csv('Data/data/ssgsea_TB_c7.csv.bz2', index_col=0)`.
 - Compute immune scores.
   `isc = Immune_Score_Caculator()`
