@@ -10,8 +10,6 @@ We created the python package called `TOSICA` that uses `scanpy` ans `torch` to 
 - Python 3.9
 - scikit-learn
 - numpy
-- jupyter
-- notebook
 - pandas
 
 # Datasets
