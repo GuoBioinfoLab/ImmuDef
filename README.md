@@ -4,7 +4,7 @@
 
 ## Package: `Immune_Score_Caculator`
 
-We created the python package called `Immune_Score_Caculator` that uses `scanpy` ans `torch` to explainablely annotate cell type on single-cell RNA-seq data.
+We created a python package called "Immune_Score_Caculator" that uses RNA-seq data to compute quantitative assessments of an individual's immune function.
 
 # Requirements
 - Python 3.10
@@ -29,16 +29,11 @@ Run test.py by `python ./main.py `
 ## Start Compution
 - Import this package.
   `from immune_score.score_caculator import Immune_Score_Caculator`
-- Read your `csv` file as a `pandas.DataFrame`.\n
+- Read your `csv` file as a `pandas.DataFrame`.
   `data = pd.read_csv('Data/data/ssgsea_TB_c7.csv.bz2', index_col=0)`.
 - Compute immune scores.
   `isc = Immune_Score_Caculator()`
   `immune_scores = isc.score_compute(data=data, use_all_to_nor=True)`
-
-## Pretrained Model Files
-
-best_state_download_dict.pth The Best model of RT-Transformer train from retained data.
-best_state_dict.pth The Best model of RT-Transformer train from full data.
 
 # Cite
 
