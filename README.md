@@ -1,6 +1,6 @@
 # Immune_Score_Caculator
 
-![Workflow](./process.png)
+![Workflow](./process.svg)
 
 ## Package: `Immune_Score_Caculator`
 
