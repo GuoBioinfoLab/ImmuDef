@@ -2,9 +2,9 @@
 
 ![Workflow](./process.svg)
 
-## Package: `Immune_Score_Caculator`
+## Package: `ImmuQF: A Novel Method for Anti-infection Immunity Quantitative Analysis`
 
-We created a python package called "Immune_Score_Caculator" that uses RNA-seq data to compute quantitative assessments of an individual's immune function.
+We created a python package called "ImmuQF" that uses RNA-seq data to compute quantitative assessments of an individual's immune function.
 
 # Requirements
 - Python 3.10
