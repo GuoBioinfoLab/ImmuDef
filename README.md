@@ -1,4 +1,4 @@
-# Immune_Score_Caculator
+# ImmuQF
 
 ![Workflow](./process.svg)
 
