@@ -1,10 +1,10 @@
-# ImmuQF
+# ImmuDef
 
 ![Workflow](./process.svg)
 
-## Package: `ImmuQF: A Novel Method for Anti-infection Immunity Quantitative Analysis`
+## Package: `ImmuDef: a Novel Method for Quantitative Evaluation of Anti-infection Immune Defense Function and its Application`
 
-We created a python package called "ImmuQF" that uses RNA-seq data to compute quantitative assessments of an individual's immune function.
+We created a python package called "ImmuDef" that uses RNA-seq data to compute quantitative assessments of an individual's immune defense function.
 
 # Requirements
 - Python 3.10
