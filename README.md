@@ -13,9 +13,11 @@ We created a python package called "ImmuDef" that uses RNA-seq data to compute q
 - numpy
 - pandas
 ## R Package Requirements
--
--
--
+-getopt
+- tidyverse
+- GSVA
+- clusterProfiler
+- msigdbr
 # Datasets
 The SMRT dataset is collect from [this paper](https://doi.org/10.1038/s41467-019-13680-7)
 Datasets for transfer learning is download from [PredRet](http://predret.org/)
