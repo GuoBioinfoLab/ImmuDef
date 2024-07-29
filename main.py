@@ -7,7 +7,7 @@ import tempfile
 # Test
 
 if __name__ == '__main__':
-    print_hi('Test start.')
+    print('Test start.')
 
     import pandas as pd
     from immune_score.score_caculator import Immune_Score_Caculator
