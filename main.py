@@ -14,6 +14,6 @@ if __name__ == '__main__':
 
     isc = Immune_Score_Caculator()
     # Create a pandas DataFrame
-    data = pd.read_csv('./Data/data/SRP318559.csv', index_col=0)
+    data = pd.read_csv('Data/SRP318559.csv', index_col=0)
     data = isc.score_compute(data=df,data_type='Matrix',use_all_to_nor=True)
     print(data)
