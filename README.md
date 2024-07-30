@@ -2,7 +2,7 @@
 
 ![Workflow](./Fig_1.svg)
 
-## Package: `ImmuDef: a Novel Method for Quantitative Evaluation of Anti-infection Immune Defense Function and its Application`
+## Package: `ImmuDef: A Novel Method for Quantitative Evaluation of Anti-infection Immune Defense Function and its Application`
 
 We created a python package called "ImmuDef" that uses RNA-seq data to compute quantitative assessments of an individual's immune defense function.
 
