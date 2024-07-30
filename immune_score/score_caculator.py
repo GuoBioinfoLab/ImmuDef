@@ -30,7 +30,7 @@ class Immune_Score_Caculator:
         else:
             'Use default immune score features...'
             # 打开JSON文件
-            with open("Data/params/Infection_Sepcific_Features.json", "r") as f:
+            with open("Data/params/Infection_Sepcific_Features_Sep.json", "r") as f:
                 # 读取文件内容
                 fea_dict = json.load(f)
             self.immune_fea_dict = fea_dict
