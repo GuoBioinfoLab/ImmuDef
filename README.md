@@ -35,7 +35,10 @@ Run test.py by `python ./main.py `
   `data = pd.read_csv('Your_data', index_col=0)`.
 - Compute immune scores.
   `isc = Immune_Score_Caculator()`
-  `immune_scores = isc.score_compute(data=data, use_all_to_nor=True)`
+- Set `data_type` to `'Matrix'` if your  `.csv` files are RNA-seq data.
+  `immune_scores = isc.score_compute(data=data,  data_type='Matrix', use_all_to_nor=True)`
+- Set `data_type` to `'ssGSEA'` if your `.csv` files are already ssGSEA Data.
+  `immune_scores = isc.score_compute(data=data,  data_type='Matrix', use_all_to_nor=True)`
 
 # Cite
 
