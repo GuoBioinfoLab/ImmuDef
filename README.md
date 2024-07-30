@@ -13,16 +13,13 @@ We created a python package called "ImmuDef" that uses RNA-seq data to compute q
 - numpy
 - pandas
 ## R Package Requirements
+- R 4.3.3
 - getopt
 - tidyverse
 - GSVA
 - clusterProfiler
 - msigdbr
-# Datasets
-- To be add.
-
-# Usage
-
+  
 ## Test
 
 Run test.py by `python ./main.py `
