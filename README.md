@@ -9,9 +9,9 @@ We created a python package called "ImmuDef" that uses RNA-seq data to compute q
 # Requirements
 ## Python Package Requirements
 - Python 3.10
-- scikit-learn
-- numpy
-- pandas
+- scikit-learn 1.2.2
+- numpy 1.23.5
+- pandas 1.5.3
 ## R Package Requirements
 - R 4.3.2
 - getopt 1.20.4 
