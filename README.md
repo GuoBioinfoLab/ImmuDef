@@ -1,6 +1,6 @@
 # ImmuDef
 
-![Workflow](./Fig_1.tif)
+![Workflow](./Fig_1.svg)
 
 ## Package: `ImmuDef: a Novel Method for Quantitative Evaluation of Anti-infection Immune Defense Function and its Application`
 
