@@ -22,7 +22,7 @@ We created a python package called "ImmuDef" that uses RNA-seq data to compute q
   
 ## Test
 
-Run test.py by `python ./main.py `
+Run a test by `python ./main.py `
 
 ## Transfer Learn to Your Own Dataset
 
