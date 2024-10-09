@@ -33,7 +33,7 @@ setup(
     description='An useless project.',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/Prophet2023/Immune-Score-Projcet',
+    url='https://github.com/GuoBioinfoLab/ImmuDef',
     keywords='immune, immunity',
     python_requires='>=3.6',
     packages=setuptools.find_packages(),
