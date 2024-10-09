@@ -20,6 +20,11 @@ We created a python package called "ImmuDef" that uses RNA-seq data to compute q
 - clusterProfiler 4.10.1
 - msigdbr 7.5.1
   
+## Install Packages
+
+- `pip install git+https://github.com/GuoBioinfoLab/ImmuDef.git`
+
+
 ## Test
 
 Run a test by `python ./main.py `
