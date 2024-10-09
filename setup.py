@@ -37,7 +37,7 @@ setup(
     keywords='immune, immunity',
     python_requires='>=3.6',
     packages=setuptools.find_packages(),
-    package_data={'your_package_name': ['**']},
+    package_data={'your_package_name': ['ImmuDef']},
     include_package_data=True,
     install_requires=[
         'pandas>0.20.0',
