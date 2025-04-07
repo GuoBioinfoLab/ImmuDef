@@ -1,6 +1,6 @@
 # ImmuDef
 
-![Workflow](./Fig_1.svg)
+![Workflow](./process.svg)
 
 ## Package: `ImmuDef: A Novel Method for Quantitative Evaluation of Anti-infection Immune Defense Function and its Application`
 
@@ -12,6 +12,7 @@ We created a python package called "ImmuDef" that uses RNA-seq data to compute q
 - scikit-learn 1.2.2
 - numpy 1.23.5
 - pandas 1.5.3
+- pytorch 2.0.1
 ## R Package Requirements
 - R 4.3.2
 - getopt 1.20.4 
