@@ -20,9 +20,6 @@ The immune defense function protecting body from invasive patho-gens is a key in
 - GSVA 1.50.1
 - clusterProfiler 4.10.1
 - msigdbr 7.5.1
-## Test
-
-Run a test by `python ./main.py `
 
 # Cite
 
