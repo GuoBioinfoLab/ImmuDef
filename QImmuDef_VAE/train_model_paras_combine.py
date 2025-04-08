@@ -11,7 +11,7 @@ def generate_configs():
         'batch_size': [16],
         'lr': [1e-4],
         'epochs': [20000],
-        'beta': [0.1, 0.3, 0.5],
+        'beta': [0.1, 0.3, 0.5, 0.6],
         'anneal_steps': [20000],
         'encoder_layers': [
             [512, 128, 32],  # Example of one combination
