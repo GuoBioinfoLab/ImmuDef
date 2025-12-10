@@ -20,6 +20,38 @@ The immune defense function protecting body from invasive patho-gens is a key in
 - GSVA 1.50.1
 - clusterProfiler 4.10.1
 - msigdbr 7.5.1
+# 🧬 ssGSEA Immune Pathway Enrichment Analysis (C7 Gene Sets)
+
+This R script performs **single-sample Gene Set Enrichment Analysis (ssGSEA)** using the **MSigDB C7 immunologic signature gene sets**. It takes a gene expression matrix as input and outputs enrichment scores for each sample across all C7 pathways.
+
+---
+
+## 📦 Required R Packages
+
+Make sure the following packages are installed:
+
+
+> ⚠️ **Note**: This script only supports **human (Homo sapiens)** data due to the use of `org.Hs.eg.db`.
+
+---
+
+## 📁 Input Format
+
+### ✅ Requirements
+- **File type**: CSV (comma-separated)
+- **Rows**: Genes (using official **HGNC gene symbols**, e.g., `TP53`, `CD3D`)
+- **Columns**: Samples
+- **Values**: Expression values  
+  - Use **raw counts** (e.g., from RNA-seq) → script uses `kcdf="Poisson"`  
+  - For **log-transformed data** (e.g., log2(TPM+1)), you must modify the script to use `kcdf="Gaussian"`
+
+Example (`input.csv`):
+```csv
+,SAMPLE_A,SAMPLE_B,SAMPLE_C
+TP53,120,98,105
+CD3D,450,512,488
+FOXP3,320,290,310
+...
 
 # Cite
 
