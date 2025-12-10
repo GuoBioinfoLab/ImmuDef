@@ -45,16 +45,10 @@ Make sure the following packages are installed:
   - Use **raw counts** (e.g., from RNA-seq) → script uses `kcdf="Poisson"`  
   - For **log-transformed data** (e.g., log2(TPM+1)), you must modify the script to use `kcdf="Gaussian"`
 
-Example (`input.csv`):
-```csv
-,SAMPLE_A,SAMPLE_B,SAMPLE_C
-TP53,120,98,105
-CD3D,450,512,488
-FOXP3,320,290,310
-...
+
 
 ## Usage
-
+Example (`input.csv`):
 ```bash
 Rscript script.R -i input_file.csv -o output_file.csv
-
+```
