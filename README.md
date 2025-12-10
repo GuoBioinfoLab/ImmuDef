@@ -53,12 +53,8 @@ CD3D,450,512,488
 FOXP3,320,290,310
 ...
 
-# Cite
+## Usage
 
-If you make use of the code/experiment in your work, please cite our paper (Bibtex below).
+```bash
+Rscript script.R -i input_file.csv -o output_file.csv
 
-@article{
-title={''},
-author={''},
-year={2024}
-}
