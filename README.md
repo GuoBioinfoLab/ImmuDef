@@ -56,4 +56,4 @@ This script trains a Beta-VAE model on single-cell RNA sequencing data. Below ar
 Make sure you have the following dependencies installed:
 
 ```bash
-pip install torch anndata scanpy numpy scikit-learn json argparse
+pip install torch numpy scikit-learn json argparse
