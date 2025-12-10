@@ -43,9 +43,6 @@ Make sure the following packages are installed:
 - **Columns**: Samples
 - **Values**: Expression values  
   - Use **raw counts** (e.g., from RNA-seq) → script uses `kcdf="Poisson"`  
-  - For **log-transformed data** (e.g., log2(TPM+1)), you must modify the script to use `kcdf="Gaussian"`
-
-
 
 ## Usage
 Example (`input.csv`):
