@@ -49,3 +49,13 @@ Example (`input.csv`):
 ```bash
 Rscript Rscript_ssGSEA.R -i input_file.csv -o output_file.csv
 ```
+# Beta-VAE Training Script
+
+This script trains a Beta-VAE model on single-cell RNA sequencing data. Below are the instructions for running the script.
+
+## Prerequisites
+
+Make sure you have the following dependencies installed:
+
+```bash
+pip install torch anndata scanpy numpy scikit-learn json argparse
