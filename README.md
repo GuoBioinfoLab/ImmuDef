@@ -50,5 +50,5 @@ Make sure the following packages are installed:
 ## Usage
 Example (`input.csv`):
 ```bash
-Rscript script.R -i input_file.csv -o output_file.csv
+Rscript Rscript_ssGSEA.R -i input_file.csv -o output_file.csv
 ```
