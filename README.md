@@ -57,3 +57,9 @@ Make sure you have the following dependencies installed:
 
 ```bash
 pip install torch numpy scikit-learn json argparse
+```
+## Training Model
+
+```bash
+python train_model_paras_combine.py
+```
