@@ -63,3 +63,27 @@ pip install torch numpy scikit-learn json argparse
 ```bash
 python train_model_paras_combine.py
 ```
+run_immudef.py — Immune Defense Score (IS) Computation Pipeline
+
+This script implements the complete computational workflow for deriving the Immune Defense Score (IS) based on QImmuDef-VAE latent representations and ensemble-model–trained reference samples. It is designed for reproducible scoring of immune defense capacity for both healthy controls and disease cohorts.
+
+## DImmuScore calculation
+
+### Command-Line Usage
+```bash
+python run_immudef.py \
+  --input data/expression_matrix.csv \
+  --vae_model models/QImmuDefVAE.pt \
+  --ensemble_model models/ensemble.pkl \
+  --gene_list data/immune_gene_list.txt \
+  --outdir results/
+```
+### Required Input Files
+Argument	Description
+```bash
+--input	Expression matrix (.csv or .tsv). Rows = samples,
+--vae_model	Pretrained QImmuDef-VAE weights (.pt).
+--ensemble_model	Trained ensemble classifier combining SVM, XGBoost and Logistic Regression (.pkl).
+--gene_list	List of immune-related genes used during VAE training.
+--outdir	Output folder where all results will be saved.
+```
