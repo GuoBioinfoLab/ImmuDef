@@ -63,11 +63,9 @@ pip install torch numpy scikit-learn json argparse
 ```bash
 python train_model_paras_combine.py
 ```
-run_immudef.py — Immune Defense Score (IS) Computation Pipeline
-
-This script implements the complete computational workflow for deriving the Immune Defense Score (IS) based on QImmuDef-VAE latent representations and ensemble-model–trained reference samples. It is designed for reproducible scoring of immune defense capacity for both healthy controls and disease cohorts.
-
 ## DImmuScore calculation
+
+This script implements the complete computational workflow for deriving the DImmuScore based on QImmuDef-VAE latent representations and ensemble-model–trained reference samples.
 
 ### Command-Line Usage
 ```bash
