@@ -85,3 +85,7 @@ Argument	Description
 --gene_list	List of immune-related genes used during VAE training.
 --outdir	Output folder where all results will be saved.
 ```
+### Citation
+A Deep Representation Learning Method for Quantitative Immune Defense Function Evaluation and Its Clinical Applications
+Zhen-Lin Tan, Tao Luo, Yu Lin, Xiao-Jun Wu, Wen-Kang Shen, Jie Chen, Qian Lei, An-Yuan Guo
+https://doi.org/10.1002/advs.202515929Digital Object Identifier (DOI) 
